@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header {
+    border-bottom: 2px solid lightgray;
+}
+.sign{
+    position: relative;
+    justify-content: space-around;
+    align-items:center;
+    display: flex;
+    list-style: none;
+    min-height: 8vh;
+    z-index: 1;
+    box-shadow:lightgray;
+}
+a {
+    text-decoration: none;
+    border: 1px solid #029ce3;
+    color:rgb(11, 102, 102);
+    padding : 8px 25px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:#029ce3;
+    z-index: 1;
+}
+.blue {
+    background-color: #029ce3;
+    color: white;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    padding: 10px;
+}
+.cover {
+    display: block;
+    overflow: hidden;
+    padding: 0 45px 20px;
+    margin: 0 auto;
+    width: 950px;
+    height: 300px;
+}
+.profile-pic {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 470px;
+}
+.location {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 460px;
+    color: grey;
+}
+.info {
+    position: relative;
+    left:820px;
+    bottom: 50px;
+
+}
+.main-end {
+    position: relative;
+    margin: 0 30px 100px;
+    border-bottom: 2px solid lightgray;
+}
+.people
+{
+position: relative;
+left: 200px;
+bottom: 90px
+}
+.number {
+    color: black;
+    font-weight: bold;
+}
+.gray {
+    color:gray;
+}
+.followers {
+    position: relative;
+    left: 350px;
+    bottom: 70px;
+    justify-content: space-around;
+    align-items:center;
+    display: flex;
+    padding: 5px 0 30px 0;
+    margin: 0 -100px 0 0;
+    height: 30px;
+    width: 30px;
+    border-radius:100%;
+    border: 4px solid white;
+
+
+}
+.photos {
+    border-radius:100%;
+    border: 4px solid white;
+    display: flex;
+    margin: 0 -18px 0 0;
+    width: 50px;
+}
+
+.three {
+    position: relative;
+    border-radius: 100%;
+    background-color: gray;
+    color:white;
+    border: 4px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+
+}
